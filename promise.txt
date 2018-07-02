@@ -1,0 +1,22 @@
+<！DOCTYPE html>
+< html >
+  < head >
+    < meta  charset = “ utf-8 ” >
+    < title > </ title >
+    < script >
+    let obj = new  Promise（（resolve，reject）=> {
+              //解析 - >成功
+              // reject->失败
+              解决（12）;
+    }）;
+    obj。那么（（num）=> {
+      alert（'成功了' + num）;
+    }，（）=> {
+      alert（'失败了'）;
+    }）;
+    < / script >
+  </ head >
+  < body >
+
+  </ body >
+</ html >
